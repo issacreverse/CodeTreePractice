@@ -12,6 +12,11 @@ bool Func(int M, int D)
         if(D>30)
             return false;
     }
+    if(M == 2)
+    {
+        if(D>28)
+            return false;
+    }
     return true;
 }
 int main() {
